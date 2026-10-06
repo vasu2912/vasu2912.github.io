@@ -36,36 +36,61 @@
     <div class="work-list">
         <article class="work-card">
             <div class="work-top">
-                <h2>amdocs</h2><time>sep 2023 — now</time><span class="role-name">software developer — advanced</span>
+                <h2>amdocs</h2><time>sep 2023 — now</time><span class="role-name">senior software developer</span>
             </div>
-            <p class="work-summary">enterprise crm, telecom bss and billing, agentic ai, and cloud modernization.</p>
+            <p class="work-summary">telecom bss/billing agentic ai, cloud migration, enterprise crm, and sre.</p>
             <ol class="impact-list">
-                <li>built a production-ready telecom agentic ai platform that exposes carrier operations as governed
-                    tools across six domain agents; designed the mcp layer end to end.</li>
-                <li>created reusable cursor ai skills and documentation workflows for pull requests and ci/cd, cutting
-                    developer time by 60%.</li>
-                <li>led an on-prem rhel-to-azure migration with containerized deployments, automated configuration and
-                    secrets management, and scheduled environment shutdowns.</li>
-                <li>migrated all soap services to rest/json, reducing integration defects by 30%.</li>
-                <li>fixed more than 120 bugs and resolved hundreds of production incidents during a
-                    monolith-to-microservices migration.</li>
+                <li>developed a production-ready telecom bss/billing agentic ai platform using langgraph and python,
+                    exposing carrier billing operations as governed, llm-callable tools across six domain agents and
+                    multiple mcp tools, and independently designed the model context protocol (mcp) tool layer end to
+                    end.</li>
+                <li>developed custom mcp servers and prompt-engineered workflows to automate business processes,
+                    improving data accuracy by 30% and cutting manual effort by 40%.</li>
+                <li>led ai adoption across the crm team by defining workflows, use cases and markdown-based
+                    documentation standards, writing cursor ai rules and guardrails, and building reusable agent skills
+                    for automated pr creation and ci/cd triggering, cutting developer time by 60%.</li>
+                <li>led the cloud migration of a legacy crm application from on-prem rhel to azure, rebuilding the
+                    deployment architecture with docker and kubernetes and automating config and secrets management,
+                    while cutting prod/non-prod compute costs through scheduled environment shutdowns.</li>
+                <li>migrated 100% of soap services to rest/json apis, improving performance, scalability and
+                    interoperability while reducing integration defects.</li>
+                <li>upgraded order broker applications to java 17 and spring boot 3.2 as part of the enterprise tech
+                    refresh, resolving foss and security vulnerabilities to meet enterprise compliance standards.</li>
+                <li>drove sre practices for a high-volume production crm, including monitoring with prometheus and
+                    grafana, incident response and release governance. fixed 120+ bugs and resolved hundreds of
+                    production incidents during the monolith-to-microservices migration of the enterprise ordering
+                    system, minimizing revenue impact for enterprise customers.</li>
             </ol>
             <div class="tags"><span>java</span><span>spring
-                    boot</span><span>langgraph</span><span>mcp</span><span>azure</span><span>kubernetes</span></div>
+                    boot</span><span>langgraph</span><span>mcp</span><span>python</span><span>azure</span><span>kubernetes</span><span>docker</span><span>prometheus</span></div>
         </article>
         <article class="work-card">
             <div class="work-top">
                 <h2>amdocs</h2><time>jul 2020 — sep 2023</time><span class="role-name">software developer</span>
             </div>
-            <p class="work-summary">crm development, enterprise integration, and production automation.</p>
+            <p class="work-summary">enterprise order broker, microservices, crm integrations, and production automation.</p>
             <ol class="impact-list">
-                <li>developed an enterprise order broker with activemq and apache camel, enabling near-real-time
-                    synchronization with latency under five seconds.</li>
-                <li>automated repetitive production and non-production work with shell scripts and engineering tooling.
-                </li>
+                <li>developed the enterprise order broker using activemq and apache camel to integrate enterprise and
+                    consumer systems, enabling near-real-time data synchronization (&lt;5s latency) and eliminating
+                    batch-processing delays.</li>
+                <li>automated recovery for order failures and fallouts, handling edge cases and lifting order completion
+                    above 99% within sla.</li>
+                <li>developed spring boot microservices and rest apis for order processing, provisioning and billing,
+                    with asynchronous event handling over activemq.</li>
+                <li>developed crm, billing and third-party integrations using jboss fuse, soap and rest, with robust
+                    error handling and logging.</li>
+                <li>partnered with the billing team and cross-functional stakeholders to resolve complex issues, and cut
+                    api response time by 11% through back-end optimization in an ejb, hibernate and jpa architecture on
+                    oracle and postgresql.</li>
+                <li>automated deployments with bamboo and jenkins ci/cd pipelines and shell scripts, built python
+                    monitoring that recovers servers automatically, and supported the move to blue-green deployments for
+                    zero-downtime releases in an agile team.</li>
+                <li>resolved 200+ production defects and incidents across order management and billing, improving
+                    stability and service delivery.</li>
             </ol>
-            <div class="tags"><span>java</span><span>activemq</span><span>apache
-                    camel</span><span>shell</span><span>rest</span></div>
+            <div class="tags"><span>java</span><span>spring
+                    boot</span><span>activemq</span><span>apache
+                    camel</span><span>jboss fuse</span><span>jenkins</span><span>shell</span><span>rest</span></div>
         </article>
         <article class="work-card">
             <div class="work-top">

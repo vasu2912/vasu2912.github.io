@@ -533,6 +533,7 @@ a {
     margin: 0 0 20px;
     padding: 0;
     list-style: none;
+    counter-reset: impact;
     max-width: 62ch
 }
 
