@@ -32,5 +32,8 @@ filterButtons.forEach((button) => button.addEventListener('click', () => {
     item.classList.toggle('is-hidden', !show);
     if (show) visible += 1;
   });
+  document.querySelectorAll('.repo-group').forEach((group) => {
+    group.classList.toggle('is-hidden', !group.querySelector('.contribution:not(.is-hidden)'));
+  });
   emptyFilter?.classList.toggle('is-visible', visible === 0);
 }));

@@ -629,6 +629,10 @@ a {
     margin-bottom: 36px
 }
 
+.repo-group.is-hidden {
+    display: none
+}
+
 .repo-title {
     display: flex;
     align-items: baseline;
